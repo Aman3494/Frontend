@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h3{
+    font-size: 100px;
+    color: red;
+    font-weight: 700;
+    font-family:"Roboto";
+}
+
+div, p{
+    background-color: blue;
+}
+
+.para p{
+    background-color: red;
+}

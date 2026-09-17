@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-box {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.nav-icons img {
+  width: 24px;
+  margin-left: 15px;
+}
+
+/* Main Layout */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Left Content (Feed) */
+.left-section {
+  width: 60%;
+}
+
+.stories {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.story {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #ddd;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 12px;
+}
+
+.post {
+  background: white;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.post-img {
+  width: 100%;
+}
+
+.post-actions {
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* Right Sidebar */
+.right-section {
+  width: 30%;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.suggestion-title {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.suggestion {
+  background: white;
+  padding: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Login Page */
+.login-body {
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: white;
+  padding: 30px;
+  border: 1px solid #ddd;
+  text-align: center;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.login-box input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-box button {
+  background: #3897f0;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.signup {
+  margin-top: 10px;
+  font-size: 14px;
+}

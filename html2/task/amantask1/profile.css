@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    padding: 10px 15px;
+    font-size: 10px;
+    color: green;
+    background-color: aqua;
+}
+
+.flex {
+   display: flex;
+    justify-content: space-around;
+}
+.cls
+{
+    display: flex;
+    background-color: white;
+}
+.back{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.para
+{
+    text-align: center;
+
+}

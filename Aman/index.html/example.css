@@ -1,0 +1,67 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+@media  (max-width: 750px) {
+    .nav-links {
+        display: none;
+    }
+    
+}
+.logo{
+    color: white;
+}
+.section{
+    
+    background: linear-gradient(rgba(0,0,50,0.7), rgba(0,0,50,0.7)), url('https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?semt=ais_hybrid&w=740&q=80');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+
+.HemBurger_image{
+    background-color: aliceblue;
+    margin-left: 20px;
+
+}
+
+
+.nav-links li{
+    margin-left: 20px;
+
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}

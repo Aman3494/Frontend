@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Media Elements & Iframes</title>
+</head>
+<body>
+
+  <h1>Media Elements & Iframes</h1>
+
+  <!-- Image with alt text -->
+  <h2>Image</h2>
+  <img src="https://www.bing.com/th/id/OIP.0B8FoaGmIdKyEQwRSy26ngHaEK?w=261&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Sample Image" width="300" height="200">
+
+  <!-- Audio with fallback and two formats -->
+  <h2>Audio</h2>
+  <audio controls>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Video with autoplay, controls and two formats -->
+  <h2>Video</h2>
+  <video controls autoplay width="400" height="300">
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+    Your browser does not support the video element.
+  </video>
+
+  <!-- YouTube video starting at 1 min 20 sec -->
+  <h2>YouTube Video (Starts at 1:20)</h2>
+  <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY?start=80" 
+    frameborder="0" 
+    allow="autoplay; encrypted-media" 
+    allowfullscreen>
+  </iframe>
+
+  <!-- Google map of your city (Dholpur, Rajasthan as example) -->
+  <h2>Map of Your City</h2>
+  <iframe 
+    src="https://www.google.com/maps?q=Dholpur,Rajasthan&output=embed" 
+    width="600" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+</body>
+</html>

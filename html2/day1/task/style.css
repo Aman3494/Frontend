@@ -1,0 +1,22 @@
+.photo {
+    height: auto;
+    width: 200px;
+    margin-right: 600px;
+}
+
+.name{
+    color: green;
+    margin-right: 200px;
+    margin-top: 200px;
+}
+
+.address {
+    color: black;
+    font-size: 40px;
+    
+}
+
+.para {
+    color: red;
+    font-size: 20;
+}
